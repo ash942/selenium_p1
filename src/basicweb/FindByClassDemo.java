@@ -16,7 +16,7 @@ public class FindByClassDemo {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(baseURL);
 
-        driver.findElement(By.className("inputtext")).sendKeys("abc");
+        driver.findElement(By.className("inputtext")).sendKeys("abcdef");
 
 
 
